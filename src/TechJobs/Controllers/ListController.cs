@@ -62,7 +62,7 @@ namespace TechJobs.Controllers
 
                 jobFieldsViewModel.Fields = fields;
                 jobFieldsViewModel.Title =  "All " + column + " Values";
-                jobFieldsViewModel.Column = column;
+                
 
                 return View(jobFieldsViewModel);
             }
